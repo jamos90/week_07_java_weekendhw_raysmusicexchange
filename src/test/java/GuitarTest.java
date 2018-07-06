@@ -34,4 +34,9 @@ public class GuitarTest {
     public void hasFamily(){
         assertEquals(Family.STRING, guitar.getFamily());
     }
+
+    @Test
+    public void canPlaySong(){
+        assertEquals("Twang twang I am playing Freebird",guitar.play("Freebird"));
+    }
 }
