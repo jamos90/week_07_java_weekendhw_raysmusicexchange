@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH.iml" filepath="$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH_main.iml" filepath="$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH_main.iml" group="RaysMusicExchange_WH" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH_test.iml" filepath="$PROJECT_DIR$/.idea/modules/RaysMusicExchange_WH_test.iml" group="RaysMusicExchange_WH" />
+    </modules>
+  </component>
+</project>
