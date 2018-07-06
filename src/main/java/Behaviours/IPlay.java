@@ -1,6 +1,6 @@
 package Behaviours;
 
 public interface IPlay {
-    String play();
+    String play(String song);
 
 }

@@ -14,4 +14,7 @@ public abstract class MusicInstrument {
         this.sellPrice = sellPrice;
     }
 
+    public String getName() {
+        return this.name;
+    }
 }
