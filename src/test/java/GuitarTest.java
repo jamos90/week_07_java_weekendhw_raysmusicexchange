@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class GuitarTest {
 
@@ -17,5 +18,20 @@ public class GuitarTest {
     @Test
     public void hasName(){
         assertEquals("Stratocaster", guitar.getName());
+    }
+
+    @Test
+    public void hasCostPrice(){
+        assertEquals(400, guitar.getCostPrice(),0.1);
+    }
+
+    @Test
+    public void hasSellPrice(){
+        assertEquals(600,guitar.getSellPrice(),0.01);
+    }
+
+    @Test
+    public void hasFamily(){
+        assertEquals(Family.STRING, guitar.getFamily());
     }
 }
