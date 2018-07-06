@@ -1,6 +1,6 @@
 package Type;
 
-public enum Type {
+public enum Family {
     BRASS,
     STRING,
     PERCUSSION,
