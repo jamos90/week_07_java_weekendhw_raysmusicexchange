@@ -80,4 +80,12 @@ public class ShopTest {
         shop.sellInstrument(piano2);
         assertEquals(500,shop.getTill(),0.1);
     }
+
+    @Test
+    public void canGetTotalSellPrice() {
+        shop.addToInstruments(guitar);
+        shop.addToInstruments(piano);
+        shop.addToInstruments(piano2);
+        assertEquals(1800,shop.totalSellPrice(),0.1);
+    }
 }

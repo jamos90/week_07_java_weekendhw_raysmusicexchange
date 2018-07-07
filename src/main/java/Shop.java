@@ -58,4 +58,11 @@ public class Shop {
         this.instrumentStock.add(instrument);
     }
 
+    public double totalSellPrice(){
+        double totalSales = 0;
+                for (MusicInstrument item : this.instrumentStock) { totalSales += item.getSellPrice();
+                }
+                return totalSales;
+    }
+
 }
