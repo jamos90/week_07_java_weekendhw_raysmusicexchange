@@ -5,21 +5,37 @@ import Instruments.MusicInstrument;
 public class SellableInstrument implements ISell {
 
     private MusicInstrument instrument;
-    private double buyPrice;
+    private double costPrice;
     private double sellPrice;
 
-    public SellableInstrument(MusicInstrument instrument, double buyPrice, double sellPrice){
+    public SellableInstrument(MusicInstrument instrument, double costPrice, double sellPrice){
         this.instrument = instrument;
-        this.buyPrice = buyPrice;
+        this.costPrice = costPrice;
         this.sellPrice = sellPrice;
     }
 
     public double markUp(){
-        double margin = this.sellPrice - this.buyPrice;
-        return margin/this.buyPrice;
+        double margin = this.sellPrice - this.costPrice;
+        return margin/this.costPrice;
     }
 
     public MusicInstrument getInstrument() {
         return this.instrument;
+    }
+
+    public  double costPrice(){
+        return this.instrument.getCostPrice();
+    }
+
+    public double sellPrice(){
+        return this.instrument.getSellPrice();
+    }
+
+    public double getCostPrice() {
+        return this.costPrice;
+    }
+
+    public double getSellPrice() {
+        return this.sellPrice;
     }
 }

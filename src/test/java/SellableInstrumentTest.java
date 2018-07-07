@@ -22,4 +22,19 @@ public class SellableInstrumentTest {
     public void canGetInsturment() {
         assertEquals(guitar, sellableInstrument.getInstrument());
     }
+
+    @Test
+    public void canGetCostPrice(){
+        assertEquals(455,sellableInstrument.getCostPrice(),0.2);
+    }
+
+    @Test
+    public void canGetSellPrice(){
+        assertEquals(400,sellableInstrument.costPrice(),0.1);
+    }
+
+    @Test
+    public void canGetSellPriceFromInstrument(){
+        assertEquals(566,sellableInstrument.sellPrice(),0.1);
+    }
 }
