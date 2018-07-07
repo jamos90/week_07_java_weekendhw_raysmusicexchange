@@ -6,7 +6,7 @@ import Type.Family;
 
 
 
-public class Guitar extends MusicInstrument implements IPlay, ISell {
+public class Guitar extends MusicInstrument implements IPlay {
 
 
     public Guitar(String name, double costPrice, double sellPrice, Family family){
@@ -19,6 +19,6 @@ public class Guitar extends MusicInstrument implements IPlay, ISell {
 
     public double markUp(MusicInstrument instrument){
          double margin = instrument.getSellPrice() - instrument.getCostPrice();
-         return instrument.getCostPrice()/margin;
+         return margin/instrument.getCostPrice();
     }
 }
