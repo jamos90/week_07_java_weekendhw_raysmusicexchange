@@ -12,11 +12,14 @@ public class ShopTest {
     Shop shop;
     Guitar guitar;
     Piano piano;
+    Piano piano2;
+
 
     @Before
     public void setUp(){
         guitar = new Guitar("Les Paul",345,600, Family.STRING);
         piano = new Piano("Baby Grand",345,600, Family.KEYBOARD);
+        piano2 = new Piano("Baby Grand",345,600, Family.KEYBOARD);
         shop = new Shop(500);
     }
 
@@ -68,5 +71,13 @@ public class ShopTest {
         shop.addToInstruments(piano);
         shop.sellInstrument(guitar);
         assertEquals(1100,shop.getTill(),0.1);
+    }
+
+    @Test
+    public void cannotSellInstrumentIfNotInStock(){
+        shop.addToInstruments(guitar);
+        shop.addToInstruments(piano);
+        shop.sellInstrument(piano2);
+        assertEquals(500,shop.getTill(),0.1);
     }
 }
