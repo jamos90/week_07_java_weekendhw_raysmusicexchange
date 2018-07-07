@@ -58,20 +58,20 @@
       <file leaf-file-name="SellableInstrument.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SellableInstrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="229">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="SellableInstrumentTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SellableInstrumentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="37" column="59" lean-forward="false" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+            <state relative-caret-position="418">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
@@ -90,8 +90,10 @@
                 <element signature="e#696#697#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
                 <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -627,7 +629,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SellableInstrumentTest.canGetSellPriceFromInstrument">
+  <component name="RunManager" selected="JUnit.SellableInstrumentTest.canGetMarginFromInstrument">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -647,26 +649,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="PianoTest.canPlaySong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="RaysMusicExchange_WH_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="canPlaySong" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="SellableInstrumentTest.canGetCostPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -696,6 +678,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SellableInstrumentTest" />
       <option name="METHOD_NAME" value="canGetInsturment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SellableInstrumentTest.canGetMarginFromInstrument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="RaysMusicExchange_WH_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SellableInstrumentTest" />
+      <option name="METHOD_NAME" value="canGetMarginFromInstrument" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -809,19 +811,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PianoTest.canPlaySong" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetInsturment" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetCostPrice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPrice" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPriceFromInstrument" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetInsturment" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetCostPrice" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPrice" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPriceFromInstrument" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetMarginFromInstrument" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPriceFromInstrument" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPrice" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetCostPrice" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetInsturment" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PianoTest.canPlaySong" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetMarginFromInstrument" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPriceFromInstrument" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetSellPrice" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetCostPrice" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SellableInstrumentTest.canGetInsturment" />
       </list>
     </recent_temporary>
   </component>
@@ -842,15 +844,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuitarTest_canPlaySong - 2018.07.06 at 13h 52m 57s.xml">
-      <configuration name="GuitarTest.canPlaySong" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PianoTest - 2018.07.06 at 15h 07m 32s.xml">
-      <configuration name="PianoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PianoTest_canPlaySong - 2018.07.06 at 15h 08m 16s.xml">
-      <configuration name="PianoTest.canPlaySong" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PianoTest_canPlaySong - 2018.07.06 at 15h 08m 32s.xml">
       <configuration name="PianoTest.canPlaySong" configurationId="JUnit" />
     </history-entry>
@@ -859,6 +852,12 @@
     </history-entry>
     <history-entry file="SellableInstrumentTest_canGetInsturment - 2018.07.07 at 11h 11m 59s.xml">
       <configuration name="SellableInstrumentTest.canGetInsturment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SellableInstrumentTest_canGetMarginFromInstrument - 2018.07.07 at 12h 15m 59s.xml">
+      <configuration name="SellableInstrumentTest.canGetMarginFromInstrument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SellableInstrumentTest_canGetMarginFromInstrument - 2018.07.07 at 12h 16m 14s.xml">
+      <configuration name="SellableInstrumentTest.canGetMarginFromInstrument" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SellableInstrumentTest_canGetSellPrice - 2018.07.07 at 11h 14m 51s.xml">
       <configuration name="SellableInstrumentTest.canGetSellPrice" configurationId="JUnit" />
@@ -871,6 +870,9 @@
     </history-entry>
     <history-entry file="SellableInstrumentTest_canGetSellPrice - 2018.07.07 at 11h 16m 43s.xml">
       <configuration name="SellableInstrumentTest.canGetSellPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SellableInstrumentTest_canGetSellPriceFromInstrument - 2018.07.07 at 11h 18m 10s.xml">
+      <configuration name="SellableInstrumentTest.canGetSellPriceFromInstrument" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -885,7 +887,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357634" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23658872" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23658872" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357634" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1031,28 +1033,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SellableInstrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="229">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SellableInstrumentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="37" column="59" lean-forward="false" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+        <state relative-caret-position="418">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#507#508#0" expanded="true" />
@@ -1061,8 +1063,10 @@
             <element signature="e#696#697#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
           </folding>
         </state>
       </provider>

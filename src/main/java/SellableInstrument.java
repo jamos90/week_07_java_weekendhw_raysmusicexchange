@@ -15,8 +15,8 @@ public class SellableInstrument implements ISell {
     }
 
     public double markUp(){
-        double margin = this.sellPrice - this.costPrice;
-        return margin/this.costPrice;
+        double margin = sellPrice() -costPrice();
+        return (margin/costPrice())*100;
     }
 
     public MusicInstrument getInstrument() {

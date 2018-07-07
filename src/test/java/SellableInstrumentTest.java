@@ -37,4 +37,9 @@ public class SellableInstrumentTest {
     public void canGetSellPriceFromInstrument(){
         assertEquals(566,sellableInstrument.sellPrice(),0.1);
     }
+
+    @Test
+    public void canGetMarginFromInstrument(){
+        assertEquals(41.5,sellableInstrument.markUp(),0.1);
+    }
 }
