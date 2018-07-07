@@ -1,4 +1,5 @@
 import Instruments.Guitar;
+import Instruments.Piano;
 import Type.Family;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,10 +11,12 @@ public class ShopTest {
 
     Shop shop;
     Guitar guitar;
+    Piano piano;
 
     @Before
     public void setUp(){
         guitar = new Guitar("Les Paul",345,600, Family.STRING);
+        piano = new Piano("Baby Grand",345,600, Family.KEYBOARD);
         shop = new Shop(500);
     }
 
@@ -43,6 +46,13 @@ public class ShopTest {
         shop.addToStock(guitar);
         shop.sell(guitar);
         assertEquals(0,shop.stockCount());
+    }
+
+    @Test
+    public void cannotRemoveFromStockIfIsNotAdded(){
+        shop.addToStock(guitar);
+        shop.sell(piano);
+        assertEquals(1,shop.stockCount());
     }
 
 //    @Test
