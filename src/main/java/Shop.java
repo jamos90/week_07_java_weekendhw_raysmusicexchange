@@ -47,6 +47,13 @@ public class Shop {
         }
     }
 
+    public void sellInstrument(MusicInstrument instrument){
+        if (this.instrumentStock.contains(instrument)){
+            this.stock.remove(instrument);
+            this.till += instrument.getSellPrice();
+        }
+    }
+
     public void addToInstruments(MusicInstrument instrument) {
         this.instrumentStock.add(instrument);
     }
