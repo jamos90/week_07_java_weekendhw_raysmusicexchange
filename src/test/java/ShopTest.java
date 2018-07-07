@@ -55,9 +55,10 @@ public class ShopTest {
         assertEquals(1,shop.stockCount());
     }
 
-//    @Test
-//    public void canAddToInstrumentStock(){
-//        shop.addToInstruments(guitar);
-//        assertEquals(1,shop.stockCount());
-//    }
+    @Test
+    public void canAddToInstrumentStock(){
+        shop.addToInstruments(guitar);
+        shop.addToInstruments(piano);
+        assertEquals(2,shop.instrumentStockCount());
+    }
 }

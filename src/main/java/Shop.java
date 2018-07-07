@@ -1,8 +1,10 @@
+import Behaviours.IPlay;
 import Behaviours.ISell;
 import Instruments.Guitar;
 import Instruments.MusicInstrument;
 
 
+import javax.sound.midi.MidiChannel;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -21,6 +23,10 @@ public class Shop {
 
     public int stockCount() {
         return this.stock.size();
+    }
+
+    public int intsrumentStockCount(){
+        return this.instrumentStock.size();
     }
 
     public int instrumentStockCount() {
