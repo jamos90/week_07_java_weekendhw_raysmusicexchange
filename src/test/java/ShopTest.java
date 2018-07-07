@@ -13,8 +13,8 @@ public class ShopTest {
 
     @Before
     public void setUp(){
-        shop = new Shop(500);
         guitar = new Guitar("Les Paul",345,600, Family.STRING);
+        shop = new Shop(500);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class ShopTest {
     }
 
     @Test
-    public void hasTillAmmount(){
+    public void hasTillAmount(){
         assertEquals(500,shop.getTill(),0.1);
     }
 
@@ -39,8 +39,15 @@ public class ShopTest {
     }
 
     @Test
-    public void canAddToInstrumentStock(){
-        shop.addToInstruments(guitar);
-        assertEquals(1,shop.stockCount());
+    public void canRemoveFromStock(){
+        shop.addToStock(guitar);
+        shop.sell(guitar);
+        assertEquals(0,shop.stockCount());
     }
+
+//    @Test
+//    public void canAddToInstrumentStock(){
+//        shop.addToInstruments(guitar);
+//        assertEquals(1,shop.stockCount());
+//    }
 }

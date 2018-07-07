@@ -35,7 +35,14 @@ public class Shop {
         this.stock.add(item);
     }
 
+    public void sell(ISell item){
+        if (this.stock.contains(item)){
+            this.stock.remove(item);
+        }
+    }
+
     public void addToInstruments(MusicInstrument instrument) {
         this.instrumentStock.add(instrument);
     }
+
 }
