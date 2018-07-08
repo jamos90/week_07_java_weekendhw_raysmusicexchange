@@ -23,4 +23,9 @@ public class CustomerTest {
     public void hasWalletAmount(){
         assertEquals(500,customer.getWallet(),0.1);
     }
+
+    @Test
+    public void customerStartsWithNoInstument(){
+        assertEquals(0,customer.instrumentCount());
+    }
 }

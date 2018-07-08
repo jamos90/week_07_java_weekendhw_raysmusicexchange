@@ -21,6 +21,10 @@ public class Customer {
     public double getWallet() {
         return this.wallet;
     }
+
+    public int instrumentCount() {
+        return this.customerInstrument.size();
+    }
 }
 
 
