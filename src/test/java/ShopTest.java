@@ -15,6 +15,7 @@ public class ShopTest {
     Piano piano;
     Piano piano2;
     Customer customer;
+    Customer customer2;
 
 
     @Before
@@ -23,6 +24,7 @@ public class ShopTest {
         piano = new Piano("Baby Grand",345,400, Family.KEYBOARD);
         piano2 = new Piano("Baby Grand",345,400, Family.KEYBOARD);
         customer = new Customer("James",700);
+        customer2 = new Customer("James",500);
         shop = new Shop(500);
     }
 
@@ -81,6 +83,13 @@ public class ShopTest {
         shop.addToInstruments(guitar);
         shop.sellInstrument(guitar,customer);
         assertEquals(100,customer.getWallet(),0.1);
+    }
+
+    @Test
+    public void customerCannotBuyIfInsuficentFunds(){
+        shop.addToInstruments(guitar);
+        shop.sellInstrument(guitar,customer2);
+        assertEquals(500,customer2.getWallet(),0.1);
     }
 
     @Test
