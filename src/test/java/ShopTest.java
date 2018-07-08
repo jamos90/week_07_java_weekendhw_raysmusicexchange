@@ -82,10 +82,35 @@ public class ShopTest {
     }
 
     @Test
-    public void canGetTotalSellPrice() {
+    public void canGetTotalSellPriceInstruments() {
         shop.addToInstruments(guitar);
         shop.addToInstruments(piano);
         shop.addToInstruments(piano2);
-        assertEquals(1800,shop.totalSellPrice(),0.1);
+        assertEquals(1800,shop.totalSellPriceInstruments(),0.1);
     }
+
+    @Test
+    public void canGetTotalSellPriceItems(){
+        shop.addToStock(guitar);
+        shop.addToStock(piano);
+        assertEquals(1200,shop.totalSellPriceItems(),0.1);
+    }
+
+    @Test
+    public void canExchangeInstruments(){
+        shop.addToStock(guitar);
+        shop.stockContainsInstrument(guitar,piano2);
+        shop.customerInstrumentValue(guitar,piano2);
+        shop.canTradeInstrument(guitar,piano2);
+        assertEquals(1,shop.instrumentStockCount());
+    }
+
+//    @Test
+//    public void canGetPontialProfit(){
+//        shop.addToStock(guitar);
+//        shop.addToStock(piano);
+//        assertEquals();
+//    }
+
+
 }

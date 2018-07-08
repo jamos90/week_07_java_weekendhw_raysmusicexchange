@@ -21,4 +21,9 @@ public class Guitar extends MusicInstrument implements IPlay, ISell {
          double margin = getSellPrice() - getCostPrice();
          return margin/getCostPrice();
     }
+
+    @Override
+    public double totalSellPrice() {
+        return getSellPrice();
+    }
 }

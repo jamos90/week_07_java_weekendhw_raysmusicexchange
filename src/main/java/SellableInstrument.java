@@ -38,4 +38,8 @@ public class SellableInstrument implements ISell {
     public double getSellPrice() {
         return this.sellPrice;
     }
+
+    public double totalSellPrice(){
+        return this.sellPrice();
+    }
 }

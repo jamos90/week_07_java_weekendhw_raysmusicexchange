@@ -2,10 +2,6 @@ import Behaviours.IPlay;
 import Behaviours.ISell;
 import Instruments.Guitar;
 import Instruments.MusicInstrument;
-
-
-import javax.sound.midi.MidiChannel;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Shop {
@@ -25,7 +21,7 @@ public class Shop {
         return this.stock.size();
     }
 
-    public int intsrumentStockCount(){
+    public int intsrumentStockCount() {
         return this.instrumentStock.size();
     }
 
@@ -41,14 +37,14 @@ public class Shop {
         this.stock.add(item);
     }
 
-    public void sell(ISell item){
-        if (this.stock.contains(item)){
+    public void sell(ISell item) {
+        if (this.stock.contains(item)) {
             this.stock.remove(item);
         }
     }
 
-    public void sellInstrument(MusicInstrument instrument){
-        if (this.instrumentStock.contains(instrument)){
+    public void sellInstrument(MusicInstrument instrument) {
+        if (this.instrumentStock.contains(instrument)) {
             this.stock.remove(instrument);
             this.till += instrument.getSellPrice();
         }
@@ -58,11 +54,45 @@ public class Shop {
         this.instrumentStock.add(instrument);
     }
 
-    public double totalSellPrice(){
-        double totalSales = 0;
-                for (MusicInstrument item : this.instrumentStock) { totalSales += item.getSellPrice();
-                }
-                return totalSales;
+    public double totalSellPriceItems() {
+        double totalSlaes = 0;
+        for (ISell item : this.stock) {
+            totalSlaes += item.totalSellPrice();
+        }
+        return totalSlaes;
     }
 
+    public double totalSellPriceInstruments() {
+        double totalSales = 0;
+        for (MusicInstrument item : this.instrumentStock) {
+            totalSales += item.getSellPrice();
+        }
+        return totalSales;
+    }
+
+    public boolean customerInstrumentValue(MusicInstrument shopInstrument, MusicInstrument customerInstrumnet){
+        if (customerInstrumnet.getSellPrice() >= shopInstrument.getSellPrice());
+        return true;
+    }
+
+    public boolean stockContainsInstrument(MusicInstrument shopInstrument, MusicInstrument customerInstrument){
+        if (instrumentStock.contains(shopInstrument) && !instrumentStock.contains(customerInstrument));
+        return  true;
+    }
+
+    public void canTradeInstrument(MusicInstrument shopInstrument, MusicInstrument customerInstrument){
+        if (stockContainsInstrument(shopInstrument,customerInstrument) && customerInstrumentValue(shopInstrument,customerInstrument)){
+            instrumentStock.remove(shopInstrument);
+            instrumentStock.add(customerInstrument);
+        }
+    }
+
+//    public double potentialProfit() {
+//        double profit = 0;
+//        for (MusicInstrument instrument : this.instrumentStock) {
+//            profit += (totalSellPriceInstruments() * instrument.markUp());
+//        }
+//        return profit;
+//
+//    }
 }
