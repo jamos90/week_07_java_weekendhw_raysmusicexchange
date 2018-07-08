@@ -65,6 +65,7 @@ public class Shop {
             this.stock.remove(instrument);
             this.till += instrument.getSellPrice();
             customer.buy(instrument.getSellPrice());
+            customer.addToInstrumentCollection(instrument);
 
         }
     }

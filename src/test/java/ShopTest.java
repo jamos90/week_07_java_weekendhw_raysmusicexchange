@@ -101,6 +101,13 @@ public class ShopTest {
     }
 
     @Test
+    public void sellingInstrumentAddsToCustomer(){
+        shop.addToInstruments(guitar);
+        shop.sellInstrument(guitar,customer);
+        assertEquals(1,customer.instrumentCount());
+    }
+
+    @Test
     public void canGetTotalSellPriceInstruments() {
         shop.addToInstruments(guitar);
         shop.addToInstruments(piano);
