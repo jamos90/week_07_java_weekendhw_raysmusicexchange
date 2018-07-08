@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cfa8800-7456-4a4e-a49f-f380f186187e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Piano.java" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Piano.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SellableInstrument.java" afterPath="$PROJECT_DIR$/src/main/java/SellableInstrument.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Behaviours/IBuy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" />
     </list>
@@ -29,40 +28,76 @@
       <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+            <state relative-caret-position="362">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+      <file leaf-file-name="IBuy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IBuy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="102" column="52" lean-forward="true" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,16 +180,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPlay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IPlay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -484,8 +509,11 @@
         <option value="$PROJECT_DIR$/src/main/java/SellableInstrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Piano.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Guitar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Behaviours/IBuy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Customer.java" />
       </list>
     </option>
   </component>
@@ -542,30 +570,6 @@
               <item name="RaysMusicExchange_WH" type="b2602c69:ProjectViewProjectNode" />
               <item name="weekendhw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RaysMusicExchange_WH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weekendhw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Instruments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RaysMusicExchange_WH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weekendhw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RaysMusicExchange_WH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weekendhw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -605,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canExchangeInstruments">
+  <component name="RunManager" selected="JUnit.CustomerTest.hasName">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -626,14 +630,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ShopTest.canExchangeInstruments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicExchange_WH_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canExchangeInstruments" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -646,14 +650,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShopTest.canGetTotalSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canExchangeInstruments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicExchange_WH_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canGetTotalSellPrice" />
+      <option name="METHOD_NAME" value="canExchangeInstruments" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -706,14 +710,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ShopTest.cannotSellInstrumentIfNotInStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.cannotExchangeInstruments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="RaysMusicExchange_WH_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="cannotSellInstrumentIfNotInStock" />
+      <option name="METHOD_NAME" value="cannotExchangeInstruments" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -787,19 +791,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.cannotSellInstrumentIfNotInStock" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPrice" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceItems" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceInstruments" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canExchangeInstruments" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceItems" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceInstruments" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canExchangeInstruments" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.cannotExchangeInstruments" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest.hasName" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopTest.canExchangeInstruments" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceInstruments" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceItems" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPrice" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.cannotSellInstrumentIfNotInStock" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.hasName" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopTest.canExchangeInstruments" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopTest.cannotExchangeInstruments" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceInstruments" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopTest.canGetTotalSellPriceItems" />
       </list>
     </recent_temporary>
   </component>
@@ -820,35 +824,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShopTest_canAddToInstrumentStock - 2018.07.07 at 12h 51m 37s.xml">
-      <configuration name="ShopTest.canAddToInstrumentStock" configurationId="JUnit" />
+    <history-entry file="ShopTest_canExchangeInstruments - 2018.07.08 at 11h 27m 25s.xml">
+      <configuration name="ShopTest.canExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canAddToInstrumentStock - 2018.07.07 at 12h 53m 02s.xml">
-      <configuration name="ShopTest.canAddToInstrumentStock" configurationId="JUnit" />
+    <history-entry file="ShopTest_canExchangeInstruments - 2018.07.08 at 14h 06m 06s.xml">
+      <configuration name="ShopTest.canExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetTotalSellPrice - 2018.07.07 at 13h 17m 53s.xml">
-      <configuration name="ShopTest.canGetTotalSellPrice" configurationId="JUnit" />
+    <history-entry file="ShopTest_canExchangeInstruments - 2018.07.08 at 14h 13m 29s.xml">
+      <configuration name="ShopTest.canExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetTotalSellPrice - 2018.07.07 at 13h 18m 24s.xml">
-      <configuration name="ShopTest.canGetTotalSellPrice" configurationId="JUnit" />
+    <history-entry file="ShopTest_canExchangeInstruments - 2018.07.08 at 15h 10m 39s.xml">
+      <configuration name="ShopTest.canExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetTotalSellPrice - 2018.07.08 at 10h 58m 03s.xml">
-      <configuration name="ShopTest.canGetTotalSellPrice" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 14h 07m 59s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetTotalSellPriceInstruments - 2018.07.08 at 10h 59m 41s.xml">
-      <configuration name="ShopTest.canGetTotalSellPriceInstruments" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 14h 08m 31s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canGetTotalSellPriceItems - 2018.07.08 at 10h 59m 33s.xml">
-      <configuration name="ShopTest.canGetTotalSellPriceItems" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 14h 09m 36s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_canSellMusicalInsturment - 2018.07.07 at 13h 03m 48s.xml">
-      <configuration name="ShopTest.canSellMusicalInsturment" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 14h 13m 00s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_cannotSellInstrumentIfNotInStock - 2018.07.07 at 13h 05m 53s.xml">
-      <configuration name="ShopTest.cannotSellInstrumentIfNotInStock" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 15h 07m 14s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_cannotSellInstrumentIfNotInStock - 2018.07.07 at 13h 06m 17s.xml">
-      <configuration name="ShopTest.cannotSellInstrumentIfNotInStock" configurationId="JUnit" />
+    <history-entry file="ShopTest_cannotExchangeInstruments - 2018.07.08 at 15h 10m 36s.xml">
+      <configuration name="ShopTest.cannotExchangeInstruments" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -863,7 +867,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20357634" sideWeight="0.503231" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09078404" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14993122" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1292985" sideWeight="0.49676898" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -890,7 +894,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -989,27 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SellableInstrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/ISell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1044,40 +1027,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Behaviours/IBuy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        <state relative-caret-position="362">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="102" column="52" lean-forward="true" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+        <state relative-caret-position="1530">
+          <caret line="111" column="26" lean-forward="false" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SellableInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
           </folding>
         </state>
       </provider>

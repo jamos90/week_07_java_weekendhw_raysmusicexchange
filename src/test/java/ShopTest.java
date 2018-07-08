@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertSame;
 
 public class ShopTest {
@@ -18,8 +19,8 @@ public class ShopTest {
     @Before
     public void setUp(){
         guitar = new Guitar("Les Paul",345,600, Family.STRING);
-        piano = new Piano("Baby Grand",345,600, Family.KEYBOARD);
-        piano2 = new Piano("Baby Grand",345,600, Family.KEYBOARD);
+        piano = new Piano("Baby Grand",345,400, Family.KEYBOARD);
+        piano2 = new Piano("Baby Grand",345,400, Family.KEYBOARD);
         shop = new Shop(500);
     }
 
@@ -102,7 +103,17 @@ public class ShopTest {
         shop.stockContainsInstrument(guitar,piano2);
         shop.customerInstrumentValue(guitar,piano2);
         shop.canTradeInstrument(guitar,piano2);
-        assertEquals(1,shop.instrumentStockCount());
+        assertEquals(true, shop.instrumentExists(piano2));
+    }
+//
+    @Test
+    public void cannotExchangeInstruments(){
+        shop.addToStock(guitar);
+        shop.stockContainsInstrument(guitar,piano2);
+        shop.customerInstrumentValue(guitar,piano2);
+        shop.canTradeInstrument(guitar, piano2);
+        assertEquals(false,shop.instrumentExists(piano2));
+
     }
 
 //    @Test

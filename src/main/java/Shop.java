@@ -21,10 +21,6 @@ public class Shop {
         return this.stock.size();
     }
 
-    public int intsrumentStockCount() {
-        return this.instrumentStock.size();
-    }
-
     public int instrumentStockCount() {
         return this.instrumentStock.size();
     }
@@ -42,6 +38,18 @@ public class Shop {
             this.stock.remove(item);
         }
     }
+
+    public boolean instrumentExists(MusicInstrument instrument){
+        if (this.instrumentStock.contains(instrument)){
+        return  true; }
+        else
+            return false;
+    }
+//    public void stockExists(MusicInstrument instrument){
+//        if (instrumentStock.contains(instrument));
+
+
+//    }
 
     public void sellInstrument(MusicInstrument instrument) {
         if (this.instrumentStock.contains(instrument)) {
@@ -71,7 +79,7 @@ public class Shop {
     }
 
     public boolean customerInstrumentValue(MusicInstrument shopInstrument, MusicInstrument customerInstrumnet){
-        if (customerInstrumnet.getSellPrice() >= shopInstrument.getSellPrice());
+        if (customerInstrumnet.getSellPrice() > shopInstrument.getSellPrice());
         return true;
     }
 
@@ -86,6 +94,8 @@ public class Shop {
             instrumentStock.add(customerInstrument);
         }
     }
+
+
 
 //    public double potentialProfit() {
 //        double profit = 0;
