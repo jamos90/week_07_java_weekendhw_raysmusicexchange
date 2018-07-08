@@ -45,16 +45,27 @@ public class Shop {
         else
             return false;
     }
-//    public void stockExists(MusicInstrument instrument){
-//        if (instrumentStock.contains(instrument));
 
-
+//    public void sellInstrument(MusicInstrument instrument, Customer customer) {
+//        if (this.instrumentStock.contains(instrument) && (customer.getWallet() >= instrument.getSellPrice())) {
+//            this.stock.remove(instrument);
+//            this.till += instrument.getSellPrice();
+//            customer.buy(instrument.getSellPrice());
+//
+//        }
 //    }
 
-    public void sellInstrument(MusicInstrument instrument) {
-        if (this.instrumentStock.contains(instrument)) {
+    //check which one is best to use.
+
+    public void sellInstrument(MusicInstrument instrument, Customer customer) {
+        if (customer.getWallet() < instrument.getSellPrice()){
+            return;
+        }
+        if (this.instrumentStock.contains(instrument)){
             this.stock.remove(instrument);
             this.till += instrument.getSellPrice();
+            customer.buy(instrument.getSellPrice());
+
         }
     }
 

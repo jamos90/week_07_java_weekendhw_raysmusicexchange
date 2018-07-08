@@ -1,8 +1,9 @@
+import Behaviours.IBuy;
 import Instruments.MusicInstrument;
 
 import java.util.ArrayList;
 
-public class Customer {
+public class Customer implements IBuy {
     private String name;
     private double wallet;
     private ArrayList<MusicInstrument> customerInstrument;
@@ -24,6 +25,14 @@ public class Customer {
 
     public int instrumentCount() {
         return this.customerInstrument.size();
+    }
+
+    public void buy(double amount){
+        this.wallet -= amount;
+    }
+
+    public void addToInstrumentCollection(MusicInstrument instrument){
+        this.customerInstrument.add(instrument);
     }
 }
 
