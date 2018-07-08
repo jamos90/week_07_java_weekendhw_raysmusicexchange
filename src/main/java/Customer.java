@@ -41,7 +41,7 @@ public class Customer implements IBuy {
             if (instrument == instrumentToFind){
                 instrumentName = instrument.getName();
             } else {
-                return instrumentName += "No instrument found"; }
+               instrumentName =  "not found"; }
             }
         return instrumentName;
     }
