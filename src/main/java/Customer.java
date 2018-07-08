@@ -34,6 +34,23 @@ public class Customer implements IBuy {
     public void addToInstrumentCollection(MusicInstrument instrument){
         this.customerInstrument.add(instrument);
     }
+
+    public String getInstrumentFromCollection(MusicInstrument instrumentToFind){
+        String instrumentName = null;
+        for (MusicInstrument instrument : this.customerInstrument){
+            if (instrument == instrumentToFind){
+                instrumentName = instrument.getName();
+            } else {
+                return instrumentName += "No instrument found"; }
+            }
+        return instrumentName;
+    }
+
+    public void getSellPrice(){
+        for (MusicInstrument instrument : customerInstrument){
+
+        }
+    }
 }
 
 

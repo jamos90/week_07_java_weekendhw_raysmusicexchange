@@ -39,4 +39,10 @@ public class CustomerTest {
         customer.addToInstrumentCollection(guitar);
         assertEquals(1,customer.instrumentCount());
     }
+
+    @Test
+    public void canFindInstrumentFromArray(){
+        customer.addToInstrumentCollection(guitar);
+        assertEquals("Les Paul",customer.getInstrumentFromCollection(guitar));
+    }
 }
