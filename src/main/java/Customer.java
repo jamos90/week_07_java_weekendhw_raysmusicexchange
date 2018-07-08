@@ -17,6 +17,10 @@ public class Customer {
     public String getName() {
         return this.name;
     }
+
+    public double getWallet() {
+        return this.wallet;
+    }
 }
 
 

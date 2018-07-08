@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertSame;
 
 public class CustomerTest {
     Customer customer;
@@ -16,5 +17,10 @@ public class CustomerTest {
     @Test
     public void hasName(){
         assertEquals("Jess", customer.getName());
+    }
+
+    @Test
+    public void hasWalletAmount(){
+        assertEquals(500,customer.getWallet(),0.1);
     }
 }
